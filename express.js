@@ -8,9 +8,9 @@ app.set('view engine', 'ejs');
 const knex = require("knex")({
   client: "mysql",
   connection: {
-    host: "concert-db-instance-1.c61dq6ysma4i.us-east-2.rds.amazonaws.com",
+    host: "milestone-3-db.c5uiqm0ou8cg.us-east-2.rds.amazonaws.com",
     user: "admin",
-    password: "Password1",
+    password: "passw0rd",
     database: "paradise-concerts",
     port: 3306,
   },
